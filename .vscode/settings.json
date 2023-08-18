@@ -1,0 +1,6 @@
+{
+  "prettier.bracketSpacing": true,
+  "prettier.arrowParens": "avoid",
+  "prettier.enable": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
