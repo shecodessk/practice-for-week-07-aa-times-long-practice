@@ -2,7 +2,7 @@
 .masthead {
   display: grid;
   padding: 10px;
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 0.5fr);
   grid-template-columns: repeat(3, 1fr);
   grid-template-areas:
     "menu-and-search . actions"
@@ -76,6 +76,7 @@
 }
 .masthead__logo > img {
   width: 90%;
+  padding-top: 11px;
 }
 .masthead__technologies > div {
   border-top: #e2e2e2 1px solid;
