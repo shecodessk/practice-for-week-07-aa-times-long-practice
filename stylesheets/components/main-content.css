@@ -105,3 +105,21 @@ img {
   margin-top: 5px;
   margin-bottom: 0;
 }
+@media screen and (max-width: 1200px) {
+  .nav-article--container {
+    display: none;
+  }
+  main {
+    display: flex;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .main,
+  .interests-bar {
+    display: none;
+  }
+  main {
+    display: flex;
+    padding-top: 0px;
+  }
+}
