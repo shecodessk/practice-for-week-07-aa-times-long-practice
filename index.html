@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>App Academy Times</title>
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     <link
       rel="stylesheet"
       href=" https://use.fontawesome.com/releases/v5.0.12/css/all.css"
@@ -26,7 +27,26 @@
         <div class="masthead__actions">
           <button>Subscribe Now</button>
           <button>Log In</button>
-          <i class="fas fa-cog"></i>
+          <i class="fas fa-cog">
+            <div class="pref pref--hidden">
+              <div class="pref__section">
+                <div class="pref__section-header">Edition</div>
+                <ul>
+                  <li class="pref__section-link"><a href="#">CSS</a></li>
+                  <li class="pref__section-link"><a href="#">HTML</a></li>
+                  <li class="pref__section-link"><a href="#">JavaScript</a></li>
+                  <li class="pref__section-link"><a href="#">Python</a></li>
+                </ul>
+              </div>
+              <div class="pref__section">
+                <div class="pref__section-header">Help</div>
+                <ul>
+                  <li class="pref__section-link"><a href="#">FAQ</a></li>
+                  <li class="pref__section-link"><a href="#">Contact Us</a></li>
+                </ul>
+              </div>
+            </div>
+          </i>
         </div>
 
         <div class="masthead__technologies">
@@ -229,5 +249,6 @@
       </section>
     </main>
     <footer></footer>
+    <script src="scripts/event-handling.js"></script>
   </body>
 </html>
