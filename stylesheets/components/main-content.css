@@ -1,1 +1,107 @@
 /* Your code here */
+main {
+  display: grid;
+  grid-template-columns: 70% 30%;
+
+  padding: 15px 40px;
+  box-sizing: border-box;
+}
+.article--main {
+  box-sizing: border-box;
+}
+
+.article--main--headline {
+  font-size: 1.7em;
+  font-weight: bolder;
+  font-style: italic;
+  margin: 0px 15px 15px 0px;
+}
+.article--body {
+  display: flex;
+}
+.article--leftside {
+  flex: 2 1 auto;
+}
+.article--video {
+  flex: 0.5 1 auto;
+}
+.article--subheadline {
+  margin-top: 12px;
+  font-size: 1em;
+
+  font-weight: bolder;
+  font-style: italic;
+}
+.byline {
+  margin-top: 10px;
+  color: #999;
+  font-size: 10px;
+}
+.article--list {
+  padding: 10px 20px 10px;
+  list-style-type: circle;
+  text-align: justify;
+  font-size: 0.8em;
+}
+.article--list > li {
+  padding-bottom: 10px;
+}
+.article--comment,
+.nav-article--comment {
+  color: #4d7b9f;
+  font-size: 8px;
+}
+
+.sub-article--container {
+  display: flex;
+  padding-bottom: 20px;
+  margin-top: 50px;
+  box-sizing: border-box;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+p {
+  font-size: 0.8em;
+}
+.nav-article--container > article {
+  padding-bottom: 20px;
+}
+.nav-article--container {
+  box-sizing: border-box;
+  border-left: solid lightgray 1px;
+  margin-left: 10px;
+  font-weight: 500;
+  padding-left: 10px;
+}
+.nav--article--headline {
+  font-weight: bolder;
+  font-style: italic;
+  margin: 0px auto;
+}
+.sub--article--text,
+.nav-article--text {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+img {
+  display: block;
+  box-sizing: border-box;
+  padding: 5px 0;
+}
+.shrink-article--container {
+  display: grid;
+  width: max-content;
+  height: 20%;
+  grid-template-columns: 1fr 1fr;
+}
+.shrink-article--container > article {
+  border-top: 1px solid lightgray;
+  padding: 5px 0px 5px 0px;
+  margin: 5px 0px 0px 0px;
+}
+
+.shrink-article--headline {
+  margin-top: 5px;
+  margin-bottom: 0;
+}
